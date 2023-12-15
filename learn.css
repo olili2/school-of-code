@@ -1,0 +1,67 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table,
+td,
+th{
+    border: 1px solid #000;
+}
+/*
+body{
+    background-image: url("great\ wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}*/
+
+.box{
+    width: 300mm;
+    height: 200px;
+    border: 20px solid #000;
+    margin: 48px auto;
+    border-radius: 32px;
+    overflow: hidden;
+    padding: 16px;
+    
+}
+
+.circle-box{
+    width: 350px;
+    height: 350px;
+    border: 20px solid;
+    border-radius: 350px;
+    margin: 48px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.circle-box img {
+    width: 100%;
+    height: inherit;
+    display: block;
+    border-radius: 350px;
+}
+
+.box .rectangle{    
+    width: 40px;
+    height: 25px;
+    border: 5px solid #000;
+
+}
+
+.box .square{
+    width: 25%;
+    height: 50%;
+    border: 5px solid #ca3232;
+    margin: 5px;
+    overflow-x: scroll;
+}
+
+.box .circle{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #000;
+    border-radius: 50px;
+}

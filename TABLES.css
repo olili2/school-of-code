@@ -1,0 +1,42 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table,
+td,
+th{
+    border: 1px solid #000;
+}
+/*
+body{
+    background-image: url("great\ wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}*/
+
+.box{
+    width: 350px;
+    height: 200px;
+    border: 20px solid #000;
+    margin: 48px 0;
+    border-radius: 32px;
+    overflow: hidden;
+    
+}
+
+.circle-box{
+    width: 350px;
+    height: 350px;
+    border: 20px solid;
+    border-radius: 350px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.circle-box img {
+    width: 100%;
+    display: block;
+    border-radius: 350px;
+}

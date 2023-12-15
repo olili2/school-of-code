@@ -1,0 +1,121 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 46, 46);
+}
+
+.main
+{
+    height: 220px;
+    width: 450px;
+    border-radius: 20px;
+    
+}
+
+.part1
+{
+    
+    height: 25%;
+    background-color: red;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 20px 20px 0 0px;
+    position: relative;
+}
+
+h3{
+    font-size: 15px;
+}
+
+.part1 p
+{
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+.part2
+{
+    height: 50%;
+    border-top: 3px solid red;
+    border-bottom: 2px solid red;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    gap:30px;
+    padding: 20px;
+}
+
+.profile1
+{
+    width: 20%;
+    
+}
+.profile1 img
+{
+    width: 100%;
+}
+.profile2
+{
+    width: 80%;
+    
+
+}
+div .validate
+{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.part3
+{
+    height: 25%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.part3 .envoyer
+{
+    width: 100px;
+    height: 25px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.part3 .annuler
+{
+    width: 100px;
+    height: 25px;
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,60 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body
+{
+  background: #1b1b1b;
+    padding: 2rem;
+}
+
+.card  
+{
+    background: #fff;
+    width: 300px;
+    padding: 16px;
+    border-radius: 12px;
+
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+   
+    margin-bottom: 36px;
+}
+
+.content {
+    display: flex;
+    gap: 16px;
+   
+}
+
+.content .main {
+    width: 75%;
+    
+}
+.content .aside {
+    width: 25%;
+}
+
+section {
+    background: #fff;
+    padding: 16px;
+    min-height: 650px;
+    }
+
+section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
